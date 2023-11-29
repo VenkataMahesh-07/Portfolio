@@ -1,0 +1,504 @@
+#container{
+    width:1000px;
+    height:auto;
+    margin:auto;
+    background-color:whitesmoke;
+}
+.header{
+    line-height:70px;
+    width:1000px;
+    height:70px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: aquamarine;
+    
+    box-sizing:border-box;
+}
+.header :hover{
+    color: red;
+}
+.header img{
+    width:100px;
+    height:50px;
+    padding:10px 0px;
+    float:left;
+    
+}
+.header a{
+    float:right;
+    font-size:20px;
+    text-decoration: none;
+    margin:0px 40px;
+    font-family:arial;
+    box-sizing: border-box;
+}
+.about{
+    clear:both;
+    text-align:center;
+    font-family:arial;
+    width:1000px;
+    
+    box-sizing: border-box;
+    background-image:url(bg_img.jfif),linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    color:white;
+    
+    
+
+}
+.about h1{
+    padding-top:20px;
+}
+.about img{
+    height:200px;
+    width:200px;
+    border:3px solid black;
+    border-radius:100%;
+    margin-top:30px;
+}
+.about p{
+    text-align:center;
+    margin:0px 200px;
+    margin-top:40px;
+    font-family:arial;
+}
+.about h3{
+    margin-top:40px;
+}
+span{
+    
+    color:deeppink;
+}
+.about h5{
+    color:cornflowerblue
+}
+.h1{
+    text-align:center;
+}
+.skills{
+    width:1000px;
+    height:auto;
+    text-align:center;
+}
+.skills img{
+    width:200px;
+    height:200px;
+}
+.skills h1{
+    text-align:center;
+}
+
+.s1{
+    width:333px;
+    float:left;
+}
+.s2{
+    width:333px;
+    float:left;
+    margin-bottom: 20px;
+}
+.s3{
+    width:333px;
+    float:left;
+}
+.m{
+    
+    clear:both;
+    margin-top:100px;
+}
+
+.s4{
+    width:333px;
+    float:left;
+}
+.s5{
+    width:333px;
+    float:left;
+    margin-bottom: 20px;
+}
+.s6{
+    width:333px;
+    float:left;
+}
+.projects{
+    clear:both;
+    
+    padding-left:10px;
+    padding-right:10px;
+    font-family:arial;
+}
+.projects h1{
+    text-align:center;
+    margin:20px;
+}
+.contact{
+    width:1000px;
+    height:auto;
+}
+.contact h1{
+    text-align:center;
+}
+.contact form{
+    line-height: 30px;
+    padding-left:335px;
+    
+}
+.btn{
+    width:70px;
+    height:30px;
+    background-color:dodgerblue;
+    box-sizing: border-box;;
+    margin-left:150px;
+    margin-top:10px;
+    
+}
+.footer{
+    margin-top:10px;
+    width:1000px;
+    height:100px;
+    line-height:100px;
+    font-family:arial;
+    background-color: black;
+    text-align:center;
+    color:white;
+}
+@media screen and (max-width:999px){
+    #container{
+        width:100%;
+        height:auto;
+        margin:auto;
+        background-color:whitesmoke;
+    }
+    .header{
+        line-height:70px;
+        width:100%;
+        height:70px;
+        padding-left:10px;
+        padding-right:10px;
+        background-color: aquamarine;
+        
+        box-sizing:border-box;
+    }
+    .header img{
+        width:100px;
+        height:50px;
+        padding:10px 0px;
+        float:left;
+        
+    }
+    .header a{
+       
+        float:right;
+        font-size:20px;
+        text-decoration: none;
+        margin:0px 30px;
+        font-family:arial;
+        box-sizing: border-box;
+    }
+    .about{
+        clear:both;
+        text-align:center;
+        font-family:arial;
+        width:100%;
+        
+        box-sizing: border-box;
+        background-image:url(bg_img.jfif),linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:100vh;
+        color:white;
+        
+        
+    
+    }
+    .about h1{
+        padding-top:20px;
+    }
+    .about img{
+        height:200px;
+        width:200px;
+        border:3px solid black;
+        border-radius:100%;
+        margin-top:30px;
+    }
+    .about p{
+        text-align:center;
+        margin:0px 200px;
+        margin-top:40px;
+        font-family:arial;
+    }
+    .about h3{
+        margin-top:40px;
+    }
+    span{
+        
+        color:deeppink;
+    }
+    .about h5{
+        color:cornflowerblue
+    }
+    .h1{
+        text-align:center;
+    }
+    .skills{
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+    .skills img{
+        width:200px;
+        height:200px;
+    }
+    .skills h1{
+        text-align:center;
+    }
+    
+    .s1{
+        width:33%;
+        float:left;
+    }
+    .s2{
+        width:33%;
+        float:left;
+        margin-bottom: 20px;
+    }
+    .s3{
+        width:33%;
+        float:left;
+    }
+    .m{
+        
+        clear:both;
+        margin-top:100px;
+    }
+    
+    .s4{
+        width:33%;
+        float:left;
+    }
+    .s5{
+        width:33%;
+        float:left;
+        margin-bottom: 20px;
+    }
+    .s6{
+        width:33%;
+        float:left;
+    }
+    .projects{
+        clear:both;
+        
+        padding-left:10px;
+        padding-right:10px;
+        font-family:arial;
+    }
+    .projects h1{
+        text-align:center;
+        margin:20px;
+    }
+    .contact{
+        width:100%;
+        height:auto;
+    }
+    .contact h1{
+        text-align:center;
+    }
+    .contact form{
+        line-height: 30px;
+        padding-left:165px;
+        
+    }
+    .btn{
+        width:70px;
+        height:30px;
+        background-color:dodgerblue;
+        box-sizing: border-box;;
+        margin-left:150px;
+        margin-top:10px;
+        
+    }
+    .footer{
+        margin-top:10px;
+        width:100%;
+        height:100px;
+        line-height:100px;
+        font-family:arial;
+        background-color: black;
+        text-align:center;
+        color:white;
+    }
+    
+
+}
+@media screen and (max-width:600px){
+    #container{
+        width:100%;
+        height:auto;
+        margin:auto;
+        background-color:whitesmoke;
+    }
+    .header{
+        line-height:70px;
+        width:100%;
+        height:70px;
+        padding-left:10px;
+        padding-right:10px;
+        background-color: aquamarine;
+        
+        box-sizing:border-box;
+    }
+    .header img{
+        width:100px;
+        height:50px;
+        padding:10px 0px;
+        float:left;
+        
+    }
+    .header a{
+        
+        height:70px;
+        float:right;
+        font-size:20px;
+        text-decoration: none;
+        margin:0px 20px;
+        font-family:arial;
+        box-sizing: border-box;
+
+    }
+    .about{
+        clear:both;
+        
+        font-family:arial;
+        width:100%;
+        
+        box-sizing: border-box;
+        background-image:url(bg_img.jfif),linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:100vh;
+        color:white;
+        
+        
+    
+    }
+    .about h1{
+        padding-top:20px;
+    }
+    .about img{
+        height:200px;
+        width:200px;
+        border:3px solid black;
+        border-radius:100%;
+        margin-top:30px;
+    }
+   
+    .about h3{
+        margin-top:40px;
+    }
+    span{
+        
+        color:deeppink;
+    }
+    .about h5{
+        color:cornflowerblue
+    }
+    .h1{
+        text-align:center;
+    }
+    .skills{
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+    .skills img{
+        width:200px;
+        height:200px;
+    }
+    .skills h1{
+        text-align:center;
+    }
+    
+    .s1{
+        width:100%;
+        float:left;
+    }
+    .s2{
+        width:100%;
+        float:left;
+        margin-bottom: 20px;
+    }
+    .s3{
+        width:100%;
+        float:left;
+    }
+    .m{
+        
+        clear:both;
+        margin-top:100px;
+    }
+    
+    .s4{
+        width:100%;
+        float:left;
+    }
+    .s5{
+        width:100%;
+        float:left;
+        margin-bottom: 20px;
+    }
+    .s6{
+        width:100%;
+        float:left;
+    }
+    .projects{
+        clear:both;
+        
+        padding-left:10px;
+        padding-right:10px;
+        font-family:arial;
+    }
+    .contact{
+        width:100%;
+        height:auto;
+    }
+    .contact h1{
+        text-align:center;
+    }
+    .contact form{
+        line-height: 30px;
+        padding-left:100px;
+        width:50%;
+        
+    }
+    .btn{
+        width:70px;
+        height:30px;
+        background-color:dodgerblue;
+        box-sizing: border-box;;
+        margin-left:150px;
+        margin-top:10px;
+        
+    }
+    
+    
+    
+    .footer{
+        margin-top:10px;
+        width:100%;
+        height:100px;
+        line-height:100px;
+        font-family:arial;
+        background-color: black;
+        text-align:center;
+        color:white;
+    }
+    
+    
+
+
+}
